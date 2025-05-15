@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Survey | Light</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+      <h1>Survey</h1>
+        <button id="themeToggle">Toggle Dark Mode</button>
+      
+  </header>
+        <nav  class="vertical-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+  
+      
+      <main>
+        <section>
+          <h1>Survey</h1>
+      
+          <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+      
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+      
+            <p style="font-weight: bold;">How did you find us?</p>
+            Google: <input type="radio" id="google" name="source" value="Google"><br>
+            Friend: <input type="radio" id="friend" name="source" value="Friend"><br>
+            Others: <input type="radio" id="other" name="source" value="Other"><br><br>
+            
+      
+            <p style="font-weight: bold;">What sections did you like?</p>
+            Design: <input type="checkbox" id="design" name="like" value="Design"><br>
+            Project:   <input type="checkbox" id="projects" name="like" value="Projects"><br>
+            Contact:   <input type="checkbox" id="contact" name="like" value="Contact"><br><br>
+          
+      
+            <label for="feedback">Suggestions/Comments:</label><br>
+            <textarea id="feedback" name="feedback" rows="10" cols="150" required placeholder="Put your feedback here:"></textarea><br><br>
+      
+            <input type="submit" id="btn" value="submit" onclick="validate()">
+          </form>
+      
+        </section>
+      </main>
+      
+      <footer>
+        <p>© 2025 Lightness.</p>
+      </footer>
+      <script src="light.js"></script>
+</body>
+</html>
