@@ -21,4 +21,4 @@ Challenges Faced
 - Form validation → Resolved using regex and JS event listeners
 - Layering navigation and fixed footer → Handled with `position` and `z-index`
 
-
+https://lightdemo.github.io/portifolio/
